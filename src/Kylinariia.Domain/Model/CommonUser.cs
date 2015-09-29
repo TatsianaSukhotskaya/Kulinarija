@@ -8,7 +8,13 @@ namespace Kylinariia.Domain.Model
 {
     public abstract class CommonUser:BaseModel
     {
-        public string name { get;set; }
-        public DateTime date { get; set; }
+        public string Name { get;set; }
+        public string Password { get; set; }
+        public DateTime DateOfAdd { get; set; }
+        public DateTime LastVisit { get; set; }
+        public List<Role> Roles { get; set; }
+        public List<Favorite> MyFavorites { get; set; }
+        public List<Comment> Comments { get; set; }
+
     }
 }

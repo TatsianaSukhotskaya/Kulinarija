@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace Kylinariia.Domain.Model
 {
-    public class Comments:BaseModel
+    public class Comment:BaseModel
     {
-        public string comment { get; set; }
-        public DateTime date { get; set; }
-        public Rate rate { get; set; }
+        public string Text { get; set; }
+        public DateTime Date { get; set; }
+        public List<Rate> Rate { get; set; }
     }
 }

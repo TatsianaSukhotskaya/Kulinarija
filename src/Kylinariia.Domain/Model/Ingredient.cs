@@ -8,8 +8,8 @@ namespace Kylinariia.Domain.Model
 {
     public class Ingredient:BaseModel
     {
-        public string name { get; set; }
-        public int weight { get; set; }
-        public TypesOfIngredients type { get; set; }
+        public string Name { get; set; }
+        public int Weight { get; set; }
+        public TypesOfIngredient Type { get; set; }
     }
 }

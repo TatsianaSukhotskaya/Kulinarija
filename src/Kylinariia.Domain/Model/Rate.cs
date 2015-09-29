@@ -8,6 +8,8 @@ namespace Kylinariia.Domain.Model
 {
     public class Rate:BaseModel
     {
-        public int rate { get; set; }
+        public int RateInformation { get; set; }
+
+        public CommonUser User { get; set; }
     }
 }

@@ -7,8 +7,8 @@ namespace Kylinariia.Domain.Model
 {
     public class Favorite
     {
-        public string name { get; set; }
-        public DateTime date_of_add { get; set; }
-        public List<Recipe> myFavorites { get; set; }
+        public string Name { get; set; }
+        public DateTime DateOfAdd { get; set; }
+        public Recipe Recipe { get; set; }
     }
 }

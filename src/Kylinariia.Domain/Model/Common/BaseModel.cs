@@ -7,6 +7,6 @@ namespace Kylinariia.Domain.Model.Common
 {
     public abstract class BaseModel
     {
-        public int id { get; set; }
+        public int Id { get; set; }
     }
 }

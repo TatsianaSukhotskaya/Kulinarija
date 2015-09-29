@@ -8,10 +8,10 @@ namespace Kylinariia.Domain.Model
 {
     public class Recipe:BaseModel
     {
-        public string name { get; set; }
-        public List<string> ingredients { get; set; }
-        public string description { get; set; }
-        public List<Comments> comment { get; set; }
-        public Rate rate { get; set; }
+        public string Name { get; set; }
+        public List<string> Ingredients { get; set; }
+        public string Description { get; set; }
+        public List<Comment> Comments { get; set; }
+        public List<Rate> Rate { get; set; }
     }
 }
