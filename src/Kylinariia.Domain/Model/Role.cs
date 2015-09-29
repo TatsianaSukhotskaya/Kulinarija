@@ -8,7 +8,7 @@ namespace Kylinariia.Domain.Model
 {
     public class Role:BaseModel
     {
-        public new string  Name { get; set; }
+        public string  Name { get; set; }
         
     }
 }
