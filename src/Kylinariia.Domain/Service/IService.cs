@@ -7,7 +7,7 @@ namespace Kylinariia.Domain.Service
 {
     public interface IService
     {
-         void Add(object a);
+         void Add(object item);
         void Delete(object a);
         
         void Update();
