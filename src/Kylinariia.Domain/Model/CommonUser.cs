@@ -14,7 +14,7 @@ namespace Kylinariia.Domain.Model
         public DateTime LastVisit { get; set; }
         public List<Role> Roles { get; set; }
         public List<Favorite> MyFavorites { get; set; }
-        public List<Comment> Comments { get; set; }
+        public List<Comments> Comments { get; set; }
 
     }
 }

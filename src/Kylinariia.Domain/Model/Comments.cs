@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Kylinariia.Domain.Model
 {
-    public class Comment:BaseModel
+    public class Comments:BaseModel
     {
         public string Text { get; set; }
         public DateTime Date { get; set; }

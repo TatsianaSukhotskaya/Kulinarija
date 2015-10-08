@@ -11,7 +11,7 @@ namespace Kylinariia.Domain.Model
         public string Name { get; set; }
         public List<string> Ingredients { get; set; }
         public string Description { get; set; }
-        public List<Comment> Comments { get; set; }
+        public List<Comments> Comments { get; set; }
         public List<Rate> Rate { get; set; }
     }
 }

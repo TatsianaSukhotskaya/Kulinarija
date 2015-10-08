@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Kylinariia.Domain.Service
 {
-    public class CommonUserService: IService
+    public class CommonUserService
     {
         private List<CommonUser> users = new List<CommonUser>();
 
@@ -26,9 +26,9 @@ namespace Kylinariia.Domain.Service
             return users;
         }
 
-        public void Update()
+        public bool Contains(CommonUser item)
         {
-            
+            return users.Contains(item);
         }
     }
 }

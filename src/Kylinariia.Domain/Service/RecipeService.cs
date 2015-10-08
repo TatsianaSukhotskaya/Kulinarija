@@ -25,9 +25,11 @@ namespace Kylinariia.Domain.Service
             return recipes;
         }
 
-        public void Update()
-        {
-            throw new NotImplementedException();
-        }
+        public bool Contains(Recipe item)
+        { return recipes.Contains(item); }
+
+
+
+
     }
 }
