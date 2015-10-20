@@ -12,8 +12,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Kylinariia.Domain", "src\Kylinariia.Domain\Kylinariia.Domain.xproj", "{389CE796-D400-4E4D-B2BB-64570D8214E9}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{455A3502-D67C-47B9-A6E8-13F145386931}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kulinariia.Domain.Services.Static.Tests", "Kulinariia.Domain.Services.Static.Tests\Kulinariia.Domain.Services.Static.Tests.csproj", "{ADC43DFD-B3E3-493F-A6D3-A82D6A7EFF20}"
 EndProject
 Global
@@ -36,7 +34,6 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{389CE796-D400-4E4D-B2BB-64570D8214E9} = {DAF4DFCA-668E-43A5-A300-ACF584626705}
-		{455A3502-D67C-47B9-A6E8-13F145386931} = {DAF4DFCA-668E-43A5-A300-ACF584626705}
-		{ADC43DFD-B3E3-493F-A6D3-A82D6A7EFF20} = {455A3502-D67C-47B9-A6E8-13F145386931}
+		{ADC43DFD-B3E3-493F-A6D3-A82D6A7EFF20} = {DAF4DFCA-668E-43A5-A300-ACF584626705}
 	EndGlobalSection
 EndGlobal
